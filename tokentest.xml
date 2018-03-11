@@ -1,0 +1,22 @@
+<dashboard script="sample.js">
+  <label>Example</label>
+  <description>A Simple XML dashboard using extensions to make GET, POST, and DELETE REST calls to Splunk</description>
+  <row>
+    <panel>
+      <html>
+        Click a row in the table to trigger a funky Splunky REST call
+        <br/><br/>
+        <div id="message"/>
+      </html>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Events table</title>
+      <event id="myRESTresults">
+        <title>Results from REST call</title>
+
+      </event>
+    </panel>
+  </row>
+</dashboard>
